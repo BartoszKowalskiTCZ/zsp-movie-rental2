@@ -1,0 +1,102 @@
+*{
+    font-family: Arial;
+}
+.log{
+    text-align: center;
+    height: 900px;
+    width: 900px;
+    background-color: white;
+    margin: auto;
+    color: white;
+}   
+.przycisk-zalog{
+    height: 50px;
+    width: 100px;
+    border-radius: 7px;
+    color: white;
+    background-color: red;
+}
+.przycisk-tworzenie
+{
+    height: 227px;
+    width: 300px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+}
+.header{
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.glowna{
+    text-align: center;
+    width: 600px;
+    height: 800px;
+    background-color: yellowgreen;
+    border: 3px solid black;
+    box-shadow: black;
+    color: black;
+    margin: auto;
+}
+.glowna_szuk{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+  border-radius: 20px;
+    box-shadow: 15px 5px 5px rosybrown;
+    color: black;
+    margin: auto;
+}
+
+.main_wylog{
+    text-align: center;
+    width: 800px;
+    height: 800px;
+    background-color: brown;
+    border: 3px solid black;
+    color: white;
+    margin: auto;
+}
+
+
+
+.l{
+    border: 2px solid BROWN;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    background-color: green;
+    box-shadow: 5px 5px 20px hotpink;
+}
+
+.wyp{
+    padding: 10px;
+    margin: 10px;
+    background-color: pink;
+}
+
+.przyciskklik{
+    height: 28px;
+    width: 40px;
+    margin: 5px;
+    border-radius: 7px;
+    color: white;
+    background-color: red;
+}
+
+.nav{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.main{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}

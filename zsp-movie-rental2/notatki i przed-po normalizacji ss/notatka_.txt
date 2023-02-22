@@ -1,0 +1,31 @@
+landlord - wynajmujacy
+specie/s gatunek/ki
+
+
+NOTATKA    -  NORMALIZACJA
+
+1. Co to jest normalizacja?
+Normalizacja baz danych jest procesem, który polega na strukturyzacji bazodanowej, a dotyczy zwykle relacyjnych baz danych.
+
+
+2. Pierwsza postać normalna 1NF
+Wśród najważniejszych czynników określających zasadę działania tej reguły, należy wymienić:
+
+Usunięcie powtarzających się grup w ramach pojedynczych tabel.
+Tworzenie oddzielnej tabeli dla pojedynczego zestawu danych relacyjnych.
+Określenie każdego z zestawów dzięki kluczowi podstawowemu.
+
+3. Druga postać normalna 2NF
+Wprowadzenie drugiej formy normalnej ma na celu przede wszystkim:
+
+Budowę osobnych tabel dla zestawów wartości powiązanych z wieloma zapisami.
+Ustalenie relacji pomiędzy tabelami przy użyciu klucza obcego.
+
+
+4. Trzecia postać normalna 3NF
+Głównym celem implementacji tej formy w swojej relacyjnej bazie danych jest:
+
+Usunięcie pół, które nie zależą od klucza.
+
+5. Normalizacja baz – do czego się przydaje?
+Relacyjny model danych powstał z myślą o ułatwieniu organizacji, przechowywania i wyciągania informacji z bazy

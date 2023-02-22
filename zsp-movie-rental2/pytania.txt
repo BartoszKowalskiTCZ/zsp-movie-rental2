@@ -1,0 +1,5 @@
+INSERT INTO species (specie) VALUES ("Horror"), ("przygodowy"), ("melodramat"), ("muzyczny"), ("kryminał");
+
+INSERT INTO users (id, login, password, is_admin) VALUES ("1", "abc@gmail.com", "abc", "0"), ("2", "def@gmail.com, "def", "0"), ("3", admin@gmail.com, "admin", "!");
+
+INSERT INTO `movies`(`id`, `name`, `year`, `specie_id`, `user_id`, `admin_id`, `lessor_id`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')
