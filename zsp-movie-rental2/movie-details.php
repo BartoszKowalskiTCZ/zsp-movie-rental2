@@ -23,10 +23,10 @@
                     {
                         echo '<h4>Strona filmu: </h4>';
                         echo '<div class="wyp">';
-                            echo '<span style="font-weight: bolder; font-size: 13px">name: </span>'.$_POST['name'].'<br><br>';
+                            echo '<span style="font-weight: bolder; font-size: 13px">nazwa: </span>'.$row_movies['name'].'<br><br>';
                             echo '<span style="font-weight: bolder; font-size: 13px">gatunek: </span>'.$row_movies['specie_id'].'<br><br>';
                             echo '<span style="font-weight: bolder; font-size: 13px">rok wydania: </span>'.$row_movies['year'].'<br><br>';
-                            echo '<span style="font-weight: bolder; font-size: 13px">Dodany przez: </span>'.$row_movies['id'].'<br><br>';
+                            echo '<span style="font-weight: bolder; font-size: 13px">Dodany przez: </span>'.$row_movies['user_id'].'<br><br>';
                             echo '<form method="post">';
                                 echo '<button type="submit" class="przyciskklik">Wypożycz film</button>';
                             echo '</form>';

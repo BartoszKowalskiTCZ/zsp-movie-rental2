@@ -16,7 +16,7 @@
         <div class="glowna">
             <h4>Dodaj nowy film:</h4>
             <form method="post">
-                <label>nazwa: <input type="text" maxlength="100"><br></label>
+                <label style="margin-left: 20px;">nazwa: <input type="text" maxlength="100"><br></label>
                 <label style="margin-left: 20px;">gatunek: <input type="text" maxlength="400"><br></label>
                 <label style="margin-right: 33px;">rok: <input type="text" maxlength="80"><br></label>
                 <label style="margin-right: 33px;">

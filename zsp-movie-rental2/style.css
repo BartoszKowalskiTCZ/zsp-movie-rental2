@@ -49,7 +49,6 @@ a{
     height: 50px;
     background-color: white;
   border-radius: 20px;
-    box-shadow: 15px 5px 5px rosybrown;
     color: black;
     margin: auto;
 }
@@ -67,18 +66,17 @@ a{
 
 
 .l{
-    border: 2px solid BROWN;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 30px;
-    background-color: green;
-    box-shadow: 5px 5px 20px hotpink;
+    padding: 130px;
+    height: 150px;
+    width: 150px;
+    margin: 80px;
+    background-color: lightyellow;
 }
 
 .wyp{
     padding: 10px;
     margin: 10px;
-    background-color: pink;
+    background-color: yellow;
 }
 
 .przyciskklik{

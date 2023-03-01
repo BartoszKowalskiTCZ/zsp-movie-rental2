@@ -12,7 +12,7 @@
             <?php include '../zsp-movie-rental2/header.php'; ?>
         </header>
         <section>
-                                       <div class="log">
+                                    <div class="log">
             <div class="glowna">
                 <form method="post">
                     <h2>Utworz konto</h2>
@@ -22,7 +22,7 @@
                     <a href="login.php">Jezeli masz juz konto, zaloguj sie</a>
                 </form>
             </div>
-                    </div>
+                    <div>                        
                     <?php
                         if(isset($_POST["login"]) && isset($_POST["password"]))
                         {

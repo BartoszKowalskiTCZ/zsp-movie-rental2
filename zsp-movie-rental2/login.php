@@ -33,7 +33,7 @@
                         {
                             if($row_users = $result_users -> fetch_array())
                             {
-                                echo '<a href="../index.php" style="border: 2px solid black; border-radius: 7px; padding: 3.3px; color: white; background-color: #9d0000;">Przejdź do strony</a>';
+                                echo '<a href="zsp-movie-rental2//index.php" style="border: 2px solid black; border-radius: 7px; padding: 3.3px; color: white; background-color: #9d0000;">Przejdź do strony</a>';
                                 echo '<h4 color: black>Zalogowano</h4>';
                                 $_SESSION['czy zalogowano'] = 1;
                                 $_SESSION['login'] = $row_users['login'];
